@@ -1,4 +1,4 @@
-public class HelloNumbers {
+public class HelloNumbers1 {
 	public static void main(String[] args) {
 	    int x = 0;
 	    int sum = 0;
