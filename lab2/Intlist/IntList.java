@@ -102,7 +102,6 @@ public class IntList {
         }
         A.rest = dcatenate2(A.rest, B);
         return A;
-
     }
 
     /**
