@@ -114,7 +114,6 @@ public class IntList {
             return B;
         }
         return new IntList(A.first, catenate(A.rest, B));
-
     }
 
 
