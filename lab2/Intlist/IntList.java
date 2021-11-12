@@ -92,6 +92,7 @@ public class IntList {
 
         dcatenate(A.rest, B);
         return A;
+
     }
 
     public static IntList dcatenate2(IntList A, IntList B){
@@ -101,6 +102,7 @@ public class IntList {
         }
         A.rest = dcatenate2(A.rest, B);
         return A;
+
     }
 
     /**
@@ -112,6 +114,7 @@ public class IntList {
             return B;
         }
         return new IntList(A.first, catenate(A.rest, B));
+
     }
 
 
